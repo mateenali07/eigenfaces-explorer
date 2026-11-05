@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "eigenfaces_results" / "eigenfaces_pca.joblib"
+MODEL_PATH = BASE_DIR / "eigenfaces_pca.joblib"
 
 
 # Load saved PCA model
